@@ -27,3 +27,41 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Flutter generated files
+.dart_tool/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android
+android/local.properties
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+
+# Android signing – NEVER commit actual keystore files or key.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Web
+web/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Coverage
+coverage/
